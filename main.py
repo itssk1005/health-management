@@ -176,6 +176,20 @@ def retrieve(k):
                 with open("rushikesh-ex.txt") as f:
                     for i in f:
                         print(i,end="")
+        elif (k == 4):
+
+            c = int(input("1 for food, 2 for exercise"))
+
+            if (c == 1):
+                with open("yash-food.txt") as f:
+                    for i in f:
+                        print(i,end="")
+
+            elif (c == 2):
+                with open("yash-ex.txt") as f:
+                    for i in f:
+                        print(i,end="")
+
 
 
 print("HEALTH MANAGEMENT SYSTEM : ")
